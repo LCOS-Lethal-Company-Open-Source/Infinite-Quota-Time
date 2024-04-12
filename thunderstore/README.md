@@ -1,6 +1,6 @@
-# LCOS-Starting Cash
+# LCOS-Infinite Quota Time
 
-Gives you 1000 cash at the start of a round.
+Gives you near-infinite time to complete the quota.
 
 Created by Jackson Baimel
 

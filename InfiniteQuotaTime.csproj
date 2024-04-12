@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>startingCash</AssemblyName>
-    <Description>Gives you 1000 cash at the start of the game</Description>
+    <AssemblyName>InfiniteQuotaTime</AssemblyName>
+    <Description>Gives you near-infinite time to complete each quota. Created by Jackson Baimel through RCOS</Description>
     <Version>0.0.1</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
