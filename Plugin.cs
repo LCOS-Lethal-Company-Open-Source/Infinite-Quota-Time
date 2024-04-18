@@ -27,10 +27,12 @@ public class Plugin : BaseUnityPlugin
         //Something to note is that there is only one TimeOfDay object - it's not like an enemy where there's many
         private static void Postfix(ref TimeOfDay __instance)
         {
+          if(GameNetworkManager.Instance.isHostingGame){ // Only runs if the user running the mod is the host
             //Sets the starting amount of days until quota to 99 - change the number here to change the number of days until the quota is due 
             int numDaysTillQuota = 999;
             //References the singular time of day object and sets to the numDaysTillQuota value
             __instance.quotaVariables.deadlineDaysAmount = numDaysTillQuota;
+          }
         }  
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "Infinite_Quota_Time",
-    "version_number": "0.0.1",
+    "version_number": "0.0.2",
     "website_url": "https://github.com/LCOS-Lethal-Company-Open-Source/Infinite-Quota-Time",
     "description": "Gives near-infinite time to complete the quota. Created by Jackson Baimel within RCOS.",
     "dependencies": [
